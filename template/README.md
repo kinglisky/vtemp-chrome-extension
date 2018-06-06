@@ -8,9 +8,9 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with auto reload && import the **dist** folder in the Chrome browser
 npm run dev
 
-# build for production with minification
+# build for production with minification && crx package
 npm run build
 ```
