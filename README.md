@@ -29,7 +29,7 @@ Based on [webpack-simple](https://github.com/vuejs-templates/webpack-simple) tem
 Auto real-time refresh support in development mode. Supports `crx` package.
 
 
-## use
+## USE
 
 * `npm install -g vue-cli`
 * `vue init kinglisky/vtemp-chrome-extension my-project`
@@ -38,7 +38,7 @@ Auto real-time refresh support in development mode. Supports `crx` package.
 * `npm run dev`
 
 
-## thank
+## THANK
 
 Reference project：https://github.com/YuraDev/vue-chrome-extension-template
 
