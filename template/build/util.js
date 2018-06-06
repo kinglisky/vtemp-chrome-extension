@@ -13,7 +13,7 @@ const PAGE_OPTIONS = {
   chunks: [],
 }
 
-exports.resolve = dir => path.join(__dirname, '..', dir)
+exports.resolve = dir => path.join(__dirname, '..', dir || '')
 
 exports.page = options => {
   const {

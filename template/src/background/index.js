@@ -1,1 +1,1 @@
-console.log('this is bgd page');
+console.log('This is BACKGROUND page!')

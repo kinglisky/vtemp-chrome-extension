@@ -1,5 +1,5 @@
 {
-  "name": "name",
+  "name": "{{ name }}",
   "description": "{{ description }}",
   "version": "1.0.0",
   "author": "{{ author }}",
@@ -7,8 +7,9 @@
   "private": true,
   "scripts": {
     "dev": "webpack --config ./build/webpack.dev.conf.js --hide-modules",
-    "build": "webpack --config ./build/webpack.prod.conf.js --hide-modules --colors",
-    "zip": "zip -q -r extension.zip dist"
+    "build": "node build/build.js",
+    "zip": "zip -q -r extension.zip dist",
+    "clear": "rm -rf chrome-ext.crx extension.zip dist"
   },
   "dependencies": {
     "vue": "^2.5.11"

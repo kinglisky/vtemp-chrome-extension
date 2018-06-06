@@ -1,1 +1,1 @@
-console.log('fuck cuck.........')
+console.log('This is CONTENT page!')
