@@ -10,7 +10,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'This is popup page!'
+      msg: 'This is popup page !'
     }
   }
 }

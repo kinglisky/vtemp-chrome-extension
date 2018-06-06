@@ -10,7 +10,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'This is options page!'
+      msg: 'This is options page !'
     }
   }
 }

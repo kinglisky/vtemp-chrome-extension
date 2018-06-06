@@ -1,4 +1,4 @@
-# vtemp-chrome-extension
+# vue-chrome-extension
 
 一个用于快速搭建 `chrome` 插件开发环境的 `vue-cli` 模板。
 
