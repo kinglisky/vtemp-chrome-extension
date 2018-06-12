@@ -36,7 +36,7 @@ module.exports = {
       js: ['js/inject.js'],
       run_at: 'document_end',
       matches: ['<all_urls>'],
-      all_frames: true
+      all_frames: false
     }
   ],
   content_security_policy: "script-src 'self' 'unsafe-eval'; object-src 'self'",
